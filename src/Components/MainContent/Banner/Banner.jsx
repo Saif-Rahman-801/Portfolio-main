@@ -7,6 +7,7 @@ import nodeJS from "../../../assets/nodejs.png";
 import expressJs from "../../../assets/icons8-express-js-50.png";
 import mongoDb from "../../../assets/icons8-mongo-db-64.png";
 const Banner = () => {
+    const filePath = "/public/resume1.pdf"
   return (
     <div className="flex justify-center items-center gap-5">
       {/* Info div */}
@@ -22,24 +23,28 @@ const Banner = () => {
               MERN stack developer
             </p>
           </div>
-          
-          <div className="my-3">
-            <button className="pr-3 border-r-[1px] border-black font-medium my-2">
-              <a href="" className="flex items-center gap-2">
+
+          <div className="my-3 flex items-center gap-2">
+            <a
+              href={filePath}
+              download="resume1.pdf"
+            >
+              <button className="pr-3 border-r-[1px] border-black font-medium my-2 flex items-center gap-2">
                 Download resume{" "}
                 <span className="font-medium text-lg">
                   <MdOutlineFileDownload />
                 </span>
-              </a>
-            </button>
-            <button className="pl-3 rounded-md border-1 border-black font-medium my-2">
-              <a href="" className="flex items-center gap-2">
+              </button>
+            </a>
+
+            <a href="" className="">
+              <button className="pr-3 font-medium my-2 flex items-center gap-2">
                 Contact me
                 <span className="font-medium text-lg">
                   <IoMdContact />
                 </span>
-              </a>
-            </button>
+              </button>
+            </a>
           </div>
           <div>
             <div className="flex gap-5 justify-center my-3">

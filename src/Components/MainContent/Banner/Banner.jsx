@@ -9,7 +9,7 @@ import mongoDb from "../../../assets/icons8-mongo-db-64.png";
 const Banner = () => {
     const filePath = "/public/resume1.pdf"
   return (
-    <div className="flex justify-center items-center gap-5">
+    <div className="flex flex-col md:flex-row justify-center items-center gap-5">
       {/* Info div */}
       <div>
         <div>

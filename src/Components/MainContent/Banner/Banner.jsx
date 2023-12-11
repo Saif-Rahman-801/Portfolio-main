@@ -1,13 +1,17 @@
 import { MdOutlineFileDownload } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
+// import TypeAnimation from "react-type-animation";
 import profile from "../../../assets/saif-removebg-preview.png";
 import JS from "../../../assets/js.png";
 import react from "../../../assets/atom.png";
 import nodeJS from "../../../assets/nodejs.png";
 import expressJs from "../../../assets/icons8-express-js-50.png";
 import mongoDb from "../../../assets/icons8-mongo-db-64.png";
+import { TypeAnimation } from "react-type-animation";
+
 const Banner = () => {
-    const filePath = "/public/resume1.pdf"
+  const filePath = "/public/resume1.pdf";
+
   return (
     <div className="flex flex-col md:flex-row justify-center items-center gap-5">
       {/* Info div */}
@@ -18,17 +22,35 @@ const Banner = () => {
               {" "}
               Hello, I am{" "}
             </p>{" "}
-            <h3 className="font-semibold text-[30px] my-2">Saif Rahman</h3>
-            <p className="text-gray-600 text-3xl font-medium my-2">
-              MERN stack developer
-            </p>
+            <h2>
+              <TypeAnimation
+                sequence={[
+                  "",
+                  500,
+                  "Saif",
+                  500,
+                  "Saif Rahman", //  Continuing previous Text
+                ]}
+                style={{ fontSize: "2em" }}
+                cursor={false}
+                // repeat={Infinity}
+              />
+            </h2>
+            <h2>
+              <TypeAnimation
+                sequence={[
+                  "MERN",
+                  1000,
+                  "MERN stack developer", //  Continuing previous Text
+                ]}
+                style={{ fontSize: "2em" }}
+                // repeat={Infinity}
+              />
+            </h2>
           </div>
 
           <div className="my-3 flex items-center gap-2">
-            <a
-              href={filePath}
-              download="resume1.pdf"
-            >
+            <a href={filePath} download="resume1.pdf">
               <button className="pr-3 border-r-[1px] border-black font-medium my-2 flex items-center gap-2">
                 Download resume{" "}
                 <span className="font-medium text-lg">

@@ -2,13 +2,20 @@ import react from "../../../assets/atom.png";
 import nodeJS from "../../../assets/nodejs.png";
 import expressJs from "../../../assets/icons8-express-js-50.png";
 import mongoDb from "../../../assets/icons8-mongo-db-64.png";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const Experience = () => {
+  useEffect(() => {
+    Aos.init();
+    // AOS.refresh();
+  }, []);
+
   return (
-    <div className="container mx-auto my-10">
+    <div data-aos="fade-up" className="container mx-auto my-10">
       <h2 className="text-4xl font-semibold mb-6 mx-3">Experience</h2>
 
-      <div className="flex ">
+      <div className="flex items-center flex-col md:flex-row">
         {/* Frontend Experience */}
         <div className="ml-6 mb-8 border-r-2 border-gray-400 p-3">
           <h3 className="text-2xl font-semibold mb-4">Frontend Development</h3>
@@ -40,7 +47,7 @@ const Experience = () => {
         </div>
 
         {/* Backend Experience */}
-        <div className="ml-6 p-3">
+        <div className="border-r-2 md:border-none border-gray-400 ml-6 p-3">
           <h3 className="text-2xl font-semibold mb-4">Backend Development</h3>
 
           {/* Individual Job/Project */}

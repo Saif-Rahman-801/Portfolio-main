@@ -4,10 +4,16 @@ import react from "../../../assets/atom.png";
 import nodeJS from "../../../assets/nodejs.png";
 import expressJs from "../../../assets/icons8-express-js-50.png";
 import mongoDb from "../../../assets/icons8-mongo-db-64.png";
+import { useEffect } from "react";
+import Aos from "aos";
 
 const AboutMe = () => {
+  useEffect(() => {
+    Aos.init();
+    // AOS.refresh();
+  }, []);
   return (
-    <div className=" text-gray-600 p-8 rounded-lg font-medium">
+    <div  data-aos="fade-up" className=" text-gray-600 p-8 rounded-lg font-medium">
       <h2 className="text-4xl font-semibold mb-4">About Me</h2>
       <p className="text-lg leading-relaxed mb-6">
         Hey there! I'm Saif Rahman, a MERN stack enthusiast with a strong

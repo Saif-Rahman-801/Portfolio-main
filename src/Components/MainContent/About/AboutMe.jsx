@@ -13,7 +13,7 @@ const AboutMe = () => {
     // AOS.refresh();
   }, []);
   return (
-    <div  data-aos="fade-up" className=" text-gray-600 p-8 rounded-lg font-medium">
+    <div  data-aos="fade-up" className=" text-gray-600 p-8 font-medium border-l-2 border-gray-400">
       <h2 className="text-4xl font-semibold mb-4">About Me</h2>
       <p className="text-lg leading-relaxed mb-6">
         Hey there! I'm Saif Rahman, a MERN stack enthusiast with a strong

@@ -10,15 +10,15 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <div data-aos="fade-up" className="container mx-auto my-10 border-l-2 border-gray-400 p-8">
-        <div className="px-5">
-          <h2 className="text-4xl font-semibold mb-5">Skills</h2>
+      <div data-aos="fade-up" className="container mx-auto my-10 p-8">
+          <h2 className="text-4xl font-semibold mb-5 text-center">Skills</h2>
+        <div className="px-5 flex flex-col md:flex-row justify-evenly gap-5">
           {/* Frontend Skills */}
-          <div className="w-auto md:w-[40%] my-7">
+          <div className="w-auto md:w-[40%] my-7 border-2 border-gray-400 rounded-xl p-4">
             <h3 className="text-2xl font-semibold mb-4">
               Frontend Technologies
             </h3>
-            <div className="flex flex-wrap gap-4">
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
               <SkillBadge name="JavaScript" />
               <SkillBadge name="React.js" />
               <SkillBadge name="Daisy Ui" />
@@ -29,7 +29,7 @@ const Skills = () => {
           </div>
 
           {/* Backend Skills */}
-          <div className="mb-8 w-auto md:w-[40%]">
+          <div className="my-7 w-auto md:w-[40%] border-2 border-gray-400 rounded-xl p-4">
             <h3 className="text-2xl font-semibold mb-4">
               Backend Technologies
             </h3>
@@ -48,7 +48,7 @@ const Skills = () => {
 
 const SkillBadge = ({ name }) => {
   return (
-    <div className="flex items-center font-medium bg-blue-500 text-white py-2 px-4 rounded-full">
+    <div className="flex items-center font-medium text-gray-600 py-2 px-4 rounded-full">
       <span className="text-black">
         <FaCheckCircle className="mr-2" />
       </span>

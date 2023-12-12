@@ -1,5 +1,5 @@
 const Navbar = () => {
-  const li = (
+  /* const li = (
     <>
       <li>
         <a className="font-medium text-lg">About</a>
@@ -17,7 +17,7 @@ const Navbar = () => {
         <a className="font-medium text-lg">Contact</a>
       </li>
     </>
-  );
+  ); */
 
   return (
     <div className="container mx-auto">

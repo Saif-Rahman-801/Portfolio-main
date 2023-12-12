@@ -9,7 +9,7 @@ const ContactForm = () => {
       <form
         action="https://formspree.io/f/xaygrkye"
         method="POST"
-        className="max-w-2xl mx-auto"
+        className="w-[80%] md:max-w-2xl mx-auto"
       >
         <div className="mb-4">
           <label className="block text-gray-700 text-sm font-medium mb-2">

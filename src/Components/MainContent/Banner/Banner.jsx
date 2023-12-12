@@ -44,7 +44,7 @@ const Banner = () => {
           </div>
 
           <div className="my-3 flex items-center gap-2">
-            <a download="" href={resume}>
+            <a download="resume1.pdf" href={resume}>
               <button className="pr-3 border-r-[1px] border-black font-medium my-2 flex items-center gap-2">
                 Download resume{" "}
                 <span className="font-medium text-lg">
@@ -93,7 +93,7 @@ const Banner = () => {
           <img
             src={profile}
             alt="profile"
-            className="w-auto h-[500px] rounded-full"
+            className=" w-auto h-auto md:h-[500px] rounded-full"
           />
         </div>
       </div>

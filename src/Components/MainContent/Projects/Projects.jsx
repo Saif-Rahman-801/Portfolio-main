@@ -7,7 +7,7 @@ const projects = [
     title: "Employee Management",
     description:
       "A web application designed to manage employee information, including details such as name, position, and contact information.",
-    liveDemo: "https://employee-management-de63c.web.app",
+    liveDemo: "https://dulcet-gnome-2e38bc.netlify.app",
     githubRepo: "https://github.com/Saif-Rahman-801/Employee-Management-Client",
   },
   {
@@ -33,7 +33,7 @@ const Projects = () => {
   }, []);
 
   return (
-    <div data-aos="fade-up" className="container mx-auto my-10">
+    <div data-aos="fade-up" className="w-[80%] md:container mx-auto my-10">
       <h2 className="text-4xl font-semibold mb-10 text-center">Projects</h2>
       {projects.map((project, index) => (
         <ProjectCard key={index} project={project} />

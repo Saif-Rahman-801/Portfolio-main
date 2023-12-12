@@ -9,11 +9,12 @@ const MainPage = () => {
       <div className="my-5 md:my-0">
         <Banner />
       </div>
-      <div className="my-20">
-        <Skills />
-      </div>
       <div className="my-32">
         <AboutMe />
+      </div>
+      <div className="my-20">
+        
+        <Skills />
       </div>
       <div className="my-32">
         <Experience />

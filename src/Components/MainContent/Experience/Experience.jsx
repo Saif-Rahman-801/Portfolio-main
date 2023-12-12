@@ -47,7 +47,7 @@ const Experience = () => {
         </div>
 
         {/* Backend Experience */}
-        <div className="border-r-2 md:border-none border-gray-400 ml-6 p-3">
+        <div className="border-r-2 mb-8 md:border-none border-gray-400 ml-6 p-3">
           <h3 className="text-2xl font-semibold mb-4">Backend Development</h3>
 
           {/* Individual Job/Project */}

@@ -16,7 +16,7 @@ const AboutMe = () => {
   const fullName = "Saif Rahman";
   const education = "Higher Secondary Certificate in Science";
   const email = "saifurs102@gmail.com";
-  const phone = "01873090443";
+  const phone = "+8801873090443";
   const age = "21";
   const nationality = "Bangladeshi";
 
@@ -30,7 +30,7 @@ const AboutMe = () => {
         <h2 className="text-4xl font-semibold mb-4">{`About me`}</h2>
         <p className="text-lg leading-relaxed mb-6">
           Hey there! I'm {fullName}, a MERN stack enthusiast with a strong
-          background in scientific principles. I earned my {education} from
+          learning in JavaScript, React, NodeJS, ExpressJS & MongoDB. I earned my {education} from
           Hajera Taju University College.
         </p>
         <p className="text-lg leading-relaxed mb-6">

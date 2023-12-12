@@ -1,6 +1,7 @@
 import AboutMe from "./About/AboutMe";
 import Banner from "./Banner/Banner";
 import Experience from "./Experience/Experience";
+import Projects from "./Projects/Projects";
 import Skills from "./Skills/Skills";
 
 const MainPage = () => {
@@ -13,11 +14,13 @@ const MainPage = () => {
         <AboutMe />
       </div>
       <div className="my-20">
-        
         <Skills />
       </div>
-      <div className="my-32">
+      <div className="my-20">
         <Experience />
+      </div>
+      <div className="my-32">
+        <Projects />
       </div>
     </div>
   );

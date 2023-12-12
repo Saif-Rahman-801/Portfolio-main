@@ -40,7 +40,8 @@ const Banner = () => {
                   "MERN stack developer", //  Continuing previous Text
                   //  Continuing previous Text
                 ]}
-                style={{ fontSize: "2em" }}
+                // style={{ fontSize: "2em" }}
+                className="text-[20px] md:text-[32px] "
                 // repeat={Infinity}
               />
             </h2>

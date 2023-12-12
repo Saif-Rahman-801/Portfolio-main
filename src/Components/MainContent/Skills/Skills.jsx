@@ -10,7 +10,7 @@ const Skills = () => {
   }, []);
   return (
     <>
-      <div data-aos="fade-up" className="container mx-auto my-10 p-8">
+      <div data-aos="fade-up" className=" container mx-auto my-10 p-8">
           <h2 className="text-4xl font-semibold mb-5 text-center">Skills</h2>
         <div className="px-5 flex flex-col md:flex-row justify-evenly gap-5">
           {/* Frontend Skills */}
@@ -18,9 +18,9 @@ const Skills = () => {
             <h3 className="text-2xl font-semibold mb-4">
               Frontend Technologies
             </h3>
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
               <SkillBadge name="JavaScript" />
-              <SkillBadge name="React.js" />
+              <SkillBadge name="React" />
               <SkillBadge name="Daisy Ui" />
               <SkillBadge name="HTML5" />
               <SkillBadge name="CSS3" />

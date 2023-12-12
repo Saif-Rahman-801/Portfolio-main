@@ -4,12 +4,17 @@ const Navbar = () => {
     <>
       <li>
         <a className="font-medium text-lg">
-         About me 
+         About
         </a>
       </li>
       <li>
         <a className="font-medium text-lg">
-         My experience
+         Experience
+        </a>
+      </li>
+      <li>
+        <a className="font-medium text-lg">
+         Skills
         </a>
       </li>
       <li>
@@ -19,7 +24,7 @@ const Navbar = () => {
       </li>
       <li>
         <a className="font-medium text-lg">
-         Contact me
+         Contact
         </a>
       </li>
     </>

@@ -33,17 +33,15 @@ const Banner = () => {
             <h2>
               <TypeAnimation
                 sequence={[
-                  "MERN",
-                  1000,
-                  "MERN stack developer",
+                  "Web Developer",
                   1000,
                   "Frontend developer",  //  Continuing previous Text
                   1000,
-                  "Web developer", //  Continuing previous Text
+                  "MERN stack developer", //  Continuing previous Text
                   //  Continuing previous Text
                 ]}
                 style={{ fontSize: "2em" }}
-                repeat={Infinity}
+                // repeat={Infinity}
               />
             </h2>
           </div>

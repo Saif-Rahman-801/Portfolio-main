@@ -7,7 +7,7 @@ const projects = [
     title: "Employee Management",
     description:
       "A web application designed to manage employee information, including details such as name, position, and contact information.",
-    liveDemo: "employee-management-de63c.web.app",
+    liveDemo: "https://employee-management-de63c.web.app",
     githubRepo: "https://github.com/Saif-Rahman-801/Employee-Management-Client",
   },
   {
@@ -21,7 +21,7 @@ const projects = [
     title: "Hotel Room Booking",
     description:
       "A hotel reservation system allowing users to browse available rooms, select dates, and book accommodations. The application provides information about room amenities, pricing, and availability.",
-    liveDemo: "the-grand-bonjour.web.app",
+    liveDemo: "https://the-grand-bonjour.web.app",
     githubRepo: "https://github.com/Saif-Rahman-801/Hotel-Room-Booking-Client",
   },
 ];

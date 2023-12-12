@@ -48,7 +48,7 @@ const Skills = () => {
 
 const SkillBadge = ({ name }) => {
   return (
-    <div className="flex items-center font-medium bg-gray-500 text-white py-2 px-4 rounded-full">
+    <div className="flex items-center font-medium bg-blue-500 text-white py-2 px-4 rounded-full">
       <span className="text-black">
         <FaCheckCircle className="mr-2" />
       </span>

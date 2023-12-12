@@ -1,12 +1,9 @@
 import { MdOutlineFileDownload } from "react-icons/md";
 import { IoMdContact } from "react-icons/io";
 import profile from "../../../assets/saif-removebg-preview.png";
-import JS from "../../../assets/js.png";
-import react from "../../../assets/atom.png";
-import nodeJS from "../../../assets/nodejs.png";
-import expressJs from "../../../assets/icons8-express-js-50.png";
-import mongoDb from "../../../assets/icons8-mongo-db-64.png";
 import { TypeAnimation } from "react-type-animation";
+import { FaGithub, FaLinkedin } from 'react-icons/fa';
+
 
 const Banner = () => {
   const filePath = "../../../../public/resume1.pdf";
@@ -68,29 +65,27 @@ const Banner = () => {
             </a>
           </div>
           <div>
-            <div className="flex gap-5 justify-center my-3">
-              <img src={JS} alt="" className="w-[30px] h-[30px] rounded-md " />
-              <img
-                src={react}
-                alt=""
-                className="w-[30px] h-[30px] rounded-md "
-              />
-              <img
-                src={nodeJS}
-                alt=""
-                className="w-[30px] h-[30px] rounded-md "
-              />
-              <img
-                src={expressJs}
-                alt=""
-                className="w-[30px] h-[30px] rounded-md "
-              />
-              <img
-                src={mongoDb}
-                alt=""
-                className="w-[30px] h-[30px] rounded-md "
-              />
-            </div>
+          <div className="mt-6 flex items-center">
+          {/* GitHub Icon */}
+          <a
+            href="https://github.com/Saif-Rahman-801"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaGithub className="text-2xl" />
+          </a>
+
+          {/* LinkedIn Icon */}
+          <a
+            href="https://www.linkedin.com/in/saif-rahman-72a659290"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-gray-600 hover:text-gray-800 transition duration-300"
+          >
+            <FaLinkedin className="text-2xl ml-4" />
+          </a>
+        </div>
           </div>
         </div>
       </div>

@@ -55,6 +55,7 @@ const AboutMe = () => {
         {/* Additional Information */}
         <div className="mt-6 text-gray-700">
           <p className="text-lg">Name: {fullName}</p>
+          <p className="text-lg">Education: {education}</p>
           <p className="text-lg">Email: {email}</p>
           <p className="text-lg">Phone: {phone}</p>
           <p className="text-lg">Age: {age}</p>

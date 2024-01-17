@@ -8,7 +8,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end flex items-center">
           {/* Email */}
-          <p className="text-base mr-4">saifurs102@gmail.com</p>
+          <p className="text-base mr-4 hidden md:flex">saifurs102@gmail.com</p>
 
           {/* GitHub Icon */}
           <a

@@ -31,6 +31,7 @@ const Skills = () => {
             </h3>
             <div className="grid grid-cols-1 gap-4">
               <SkillBadge name="React(Advanced)" />
+              <SkillBadge name="Redux(Beginner)" />
               <SkillBadge name="Tailwind CSS(Advanced)" />
               <SkillBadge name="CSS3(Intermediate)" />
               {/* <SkillBadge name="HTML5(Advanced)" /> */}

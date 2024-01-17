@@ -14,6 +14,42 @@ const Experience = () => {
   return (
     <div data-aos="fade-up" className="container mx-auto my-10">
       <h2 className="text-4xl font-semibold mb-6 mx-3">Experience</h2>
+      {/* Web Development Course */}
+      <div data-aos="fade-up" className="container mx-auto my-5">
+        {/* <h2 className="text-4xl font-semibold mb-6 mx-3">
+          Learning
+        </h2> */}
+
+        <div className="flex items-center flex-col md:flex-row">
+          <div className="ml-6 mb-8 p-3">
+            <h3 className="text-2xl font-semibold mb-4">Web Development Course</h3>
+            <p className="text-gray-600">
+              Completed a web development course at{" "}
+              <a
+                href="https://web.programming-hero.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                Programming Hero
+              </a>{" "}
+              and earned a certificate.
+            </p>
+            <p className="text-gray-600 mt-2">
+              View my certificate{" "}
+              <a
+                href="https://drive.google.com/file/d/1B1hfbpSJIA0g1LJqvmu6g4FTu-EeZqMM/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-blue-500 hover:underline"
+              >
+                here
+              </a>
+              .
+            </p>
+          </div>
+        </div>
+      </div>
 
       <div className="flex items-center flex-col md:flex-row">
         {/* Frontend Experience */}
@@ -24,7 +60,7 @@ const Experience = () => {
           <div className="mb-4">
             <h4 className="text-lg font-medium mb-2">React Developer</h4>
             <p className="text-gray-600">
-              Tech stack : Daisy Ui, React-router with frebase{" "}
+              Tech stack: Daisy Ui, React-router with Firebase{" "}
             </p>
             <ul className="list-disc ml-6 mt-2">
               <li>
@@ -53,7 +89,7 @@ const Experience = () => {
           {/* Individual Job/Project */}
           <div className="mb-4">
             <h4 className="text-lg font-medium mb-2">Node.js Developer</h4>
-            <p className="text-gray-600">Tech stack : Express, Mongodb </p>
+            <p className="text-gray-600">Tech stack: Express, MongoDB </p>
             <ul className="list-disc ml-6 mt-2">
               <li>
                 Implemented server-side logic using
@@ -86,6 +122,8 @@ const Experience = () => {
           {/* Add more Backend Experience sections as needed */}
         </div>
       </div>
+
+      
     </div>
   );
 };

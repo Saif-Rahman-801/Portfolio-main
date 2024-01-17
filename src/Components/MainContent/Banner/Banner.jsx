@@ -89,6 +89,9 @@ const Banner = () => {
               >
                 <FaLinkedin className="text-2xl ml-4" />
               </a>
+              <p className="mx-3">
+                Email: saifurs102@gmail.com
+              </p>
             </div>
           </div>
         </div>

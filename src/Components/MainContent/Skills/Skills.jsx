@@ -13,17 +13,27 @@ const Skills = () => {
       <div data-aos="fade-up" className=" container mx-auto my-10 p-8">
           <h2 className="text-4xl font-semibold mb-5 text-center">Skills</h2>
         <div className="px-5 flex flex-col md:flex-row justify-evenly gap-5">
+          {/* Languages */}
+          <div className="w-auto md:w-[40%] my-7 border-2 border-gray-400 rounded-xl p-4">
+            <h3 className="text-2xl font-semibold mb-4">
+              Languages
+            </h3>
+            <div className="grid grid-cols-1 gap-4">
+              <SkillBadge name="JavaScript(Intermediate)" />
+              <SkillBadge name="TypeScript(Beginner)" />
+              {/* Add more frontend skills as needed */}
+            </div>
+          </div>
           {/* Frontend Skills */}
           <div className="w-auto md:w-[40%] my-7 border-2 border-gray-400 rounded-xl p-4">
             <h3 className="text-2xl font-semibold mb-4">
               Frontend Technologies
             </h3>
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-              <SkillBadge name="JavaScript" />
-              <SkillBadge name="React" />
-              <SkillBadge name="Daisy Ui" />
-              <SkillBadge name="HTML5" />
-              <SkillBadge name="CSS3" />
+            <div className="grid grid-cols-1 gap-4">
+              <SkillBadge name="React(Advanced)" />
+              <SkillBadge name="Tailwind CSS(Advanced)" />
+              <SkillBadge name="CSS3(Intermediate)" />
+              {/* <SkillBadge name="HTML5(Advanced)" /> */}
               {/* Add more frontend skills as needed */}
             </div>
           </div>
@@ -34,9 +44,9 @@ const Skills = () => {
               Backend Technologies
             </h3>
             <div className="flex flex-wrap gap-4">
-              <SkillBadge name="Node.js" />
-              <SkillBadge name="Express.js" />
-              <SkillBadge name="MongoDB" />
+              <SkillBadge name="Node.js(Intermediate)" />
+              <SkillBadge name="Express.js(Intermediate)" />
+              <SkillBadge name="MongoDB(Beginner)" />
               {/* Add more backend skills as needed */}
             </div>
           </div>

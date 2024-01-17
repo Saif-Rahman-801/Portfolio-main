@@ -14,14 +14,14 @@ const projects = [
     title: "Brand Shop",
     description:
       "An e-commerce platform where users can explore and purchase products from various brands. The application includes features such as product categories, user accounts, and a shopping cart.",
-    liveDemo: "https://foodism-ce81e.web.app",
+    liveDemo: "/",
     githubRepo: "https://github.com/Saif-Rahman-801/Brand-Shop-Client",
   },
   {
     title: "Hotel Room Booking",
     description:
       "A hotel reservation system allowing users to browse available rooms, select dates, and book accommodations. The application provides information about room amenities, pricing, and availability.",
-    liveDemo: "https://the-grand-bonjour.web.app",
+    liveDemo: "/",
     githubRepo: "https://github.com/Saif-Rahman-801/Hotel-Room-Booking-Client",
   },
 ];

@@ -3,7 +3,8 @@ import { IoMdContact } from "react-icons/io";
 import profile from "../../../assets/saif-removebg-preview.png";
 import { TypeAnimation } from "react-type-animation";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import resume from "../../../assets/resume1.pdf";
+import resume from "../../../assets/Saif'sResume_3.pdf";
+import { Link } from "react-router-dom";
 
 const Banner = () => {
   return (
@@ -48,12 +49,13 @@ const Banner = () => {
           </div>
 
           <div className="my-3 flex items-center gap-2">
-            <a download="resume1.pdf" href={resume}>
+            <a download="Saif'sResume_3.pdf" href={resume}>
               <button className="pr-3 border-r-[1px] border-black font-medium my-2 flex items-center gap-2">
-                Download resume{" "}
+                Download resume{" "} 
                 <span className="font-medium text-lg">
                   <MdOutlineFileDownload />
                 </span>
+                or <Link to={`https://drive.google.com/file/d/12h_Vm0oVcMgOpZZQKWNvUXueEOZ59Ft-/view?usp=sharing`}>Click here</Link>
               </button>
             </a>
 
